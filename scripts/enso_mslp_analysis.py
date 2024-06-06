@@ -9,7 +9,7 @@ import pandas as pd
 classified_months = pd.read_csv('classified_months.csv')
 
 # Load the new dataset
-file_path = 'adaptor.mars.internal-1708005678.4330814-8261-4-81f6c0fa-376b-4c88-afda-d134d14e61db.nc'  # Update this to the new file path
+file_path = 'data/dataset.nc'  # Update this to the new file path
 dataset = xr.open_dataset(file_path)
 
 # select elnino phases based on the classified months
