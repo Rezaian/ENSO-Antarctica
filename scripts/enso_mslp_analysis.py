@@ -6,7 +6,7 @@ import cartopy.feature as cfeature  # To add features such as borders
 import numpy as np
 import pandas as pd
 # read ONI classified months
-classified_months = pd.read_csv('classified_months.csv')
+classified_months = pd.read_csv('data/classified_months.csv')
 
 # Load the new dataset
 file_path = 'data/dataset.nc'  # Update this to the new file path
